@@ -1,0 +1,25 @@
+#header {
+    color:rgb(118, 55, 237);
+    text-align: center;
+   text-decoration: underline;
+}
+
+#main {
+    color: cornsilk;
+    background-color:rgb(118, 55, 237);
+}
+
+input{
+    padding: 5px;
+}
+td{
+    padding: 10px;
+}
+.btn{
+    text-align: center;
+}
+.chk{
+    position: relative;
+    text-align: center;
+    top: -15px;
+}
