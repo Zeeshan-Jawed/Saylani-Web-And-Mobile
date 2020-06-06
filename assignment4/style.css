@@ -1,0 +1,188 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: url(images/background.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-text {
+    max-width: 350px;
+    margin-top: 80px;
+}
+
+.header-text h1 {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 15px;
+    color: #777;
+    line-height: 18px;
+}
+
+.square {
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background-color: #f67c92;
+    margin: 15px 0;
+}
+
+.common-btn {
+    padding: 18px 40px;
+    outline: none;
+    background: transparent;
+    border: 2px solid #f67c92;
+    font-weight: bold;
+}
+
+.line {
+    line-height: 8px;
+}
+
+.line1 {
+    width: 15px;
+    height: 15px;
+    background: #f67c92;
+    display: inline-block;
+}
+
+.line2 {
+    width: 80px;
+    height: 1px;
+    background: #f67c92;
+    display: inline-block;
+}
+
+.line3 {
+    width: 60px;
+    height: 1px;
+    background: #f67c92;
+    display: inline-block;
+}
+
+#sideNav {
+    position: fixed;
+    top: 0px;
+    right: -250px;
+    height: 100vh;
+    background-color: #f67c92;
+    width: 250px;
+    transition: 1s;
+    z-index: 2;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 36px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+#menu {
+    width: 50px;
+    position: fixed;
+    top: 35px;
+    right: 65px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.about-text {
+    text-align: right;
+    margin-top: 60px;
+}
+
+.about-text h3 {
+    margin: 40px 0 10px;
+    font-size: 28px;
+    font-style: italic;
+}
+
+.about-text h4 {
+    color: #797979;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#feature {
+    margin-top: 100px;
+}
+
+.courses {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.course-text h1 {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.course-text p {
+    max-width: 350px;
+}
+
+.list {
+    list-style: none;
+}
+
+.col-md-2 p {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.col-md-2 ul li {
+    list-style: none;
+    font-size: 12px;
+}
+
+.col-md-2 h5 {
+    font-size: 15px;
+    color: rgb(218, 99, 104);
+}
+
+.decor hr {
+    background-color: rgb(167, 142, 142);
+}
+
+.form-group input {
+    border: solid 2px;
+    outline: none;
+    background: transparent;
+    border: 2px solid #f67c92;
+}
+
+.about-text {
+    text-align: left;
+}
+
+.form-group textarea {
+    border: solid 2px;
+    outline: none;
+    background: transparent;
+    border: 2px solid #f67c92;
+}
+
+.coruses h1 {
+    color: #f67c92;
+}
+
+.courses-txt h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #f67c92;
+}

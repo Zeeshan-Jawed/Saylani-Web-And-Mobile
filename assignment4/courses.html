@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Designing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <section id="about">
+        <div class="container">
+            <a href="index.html"><img src="images/logo.png"></a>
+        </div>
+
+        <div class="container">
+            <div class="coruses">
+                <h1 class="text-center">COURSES</h1>
+                <div class="row p-3">
+                    <div class="col-md-4">
+                        <div class="courses-txt text-center">
+                            <h3>Web Designing</h3>
+                            <img src="images//gradient-creative-landing-page_23-2148261159.jpg" width="100%" height="200px">
+                            <p>Hello</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="courses-txt text-center">
+                            <h3>Web Development</h3>
+                            <img src="images/web-development-vector-landing-page-with-header_9209-2579.jpg" width="100%" height="200px">
+                            <p>Hello</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <div class="courses-txt text-center ">
+                            <h3>Web Framework</h3>
+                            <img src="images/1_Q2t-jgIzVx_w1Cyy1YlbNw.png " width="100%" height="200px">
+                            <p>Hello</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <nav id="sideNav">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="courses.html">COURSES</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+    </nav>
+    <img src="images/menu.png" id="menu">
+    <div class="container decor ">
+        <hr> </div>
+    <footer>
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-2">
+                    <h5>About Us</h5>
+                    <ul>
+                        <li>Request a Demo</li>
+                        <li>FAQs</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2">
+                    <h5>Product</h5>
+                    <ul>
+                        <li>Our plans</li>
+                        <li>Free trial</li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h5>Support</h5>
+                    <ul>
+                        <li>Features</li>
+                        <li>Contact us</li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h5>Explore</h5>
+                    <ul>
+                        <li>Find a Nonprofit</li>
+                        <li>Corporate Solutions</li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <br>
+                    <p>support@xypo.com <br>&nbsp;&nbsp;&copy;2019 Xypo </p>
+                </div>
+                <div>
+                    <img src="images/logo.png" width="120px" alt="">
+                </div>
+            </div>
+        </div> <br>
+    </footer>
+    <script>
+        var menu = document.getElementById("menu");
+        var sideNav = document.getElementById("sideNav");
+        sideNav.style.right = "-250px";
+        menu.onclick = function() {
+            if (sideNav.style.right == "-250px") {
+                sideNav.style.right = "0px";
+            } else {
+                sideNav.style.right = "-250px";
+            }
+        }
+    </script>
+</body>
+
+</html>
